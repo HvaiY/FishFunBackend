@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "7JVnyQaXla+3mJPaCIEDTbByK7DLkOyyu/JVCugkLXrBV2nJdKPqDgLL2Jo8s0+hnzMAfMlKzzNv1OdrUT5M6g==",
+  "success": true,
+  "projectFilePath": "E:\\newfolder\\priv\\FishFunBackend\\Demo\\ConsoleDaprDemo\\ConsoleDaprDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuan\\.nuget\\packages\\dapr.client\\1.9.0\\dapr.client.1.9.0.nupkg.sha512",
+    "C:\\Users\\yuan\\.nuget\\packages\\google.api.commonprotos\\2.2.0\\google.api.commonprotos.2.2.0.nupkg.sha512",
+    "C:\\Users\\yuan\\.nuget\\packages\\google.protobuf\\3.15.0\\google.protobuf.3.15.0.nupkg.sha512",
+    "C:\\Users\\yuan\\.nuget\\packages\\grpc.core.api\\2.47.0\\grpc.core.api.2.47.0.nupkg.sha512",
+    "C:\\Users\\yuan\\.nuget\\packages\\grpc.net.client\\2.47.0\\grpc.net.client.2.47.0.nupkg.sha512",
+    "C:\\Users\\yuan\\.nuget\\packages\\grpc.net.common\\2.47.0\\grpc.net.common.2.47.0.nupkg.sha512",
+    "C:\\Users\\yuan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\yuan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\yuan\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\yuan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.1.252:8009/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
