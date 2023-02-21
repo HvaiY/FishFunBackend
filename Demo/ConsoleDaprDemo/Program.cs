@@ -1,18 +1,19 @@
-﻿//using Dapr.Client;
+﻿using Dapr.Client;
 
 
-//const string storeName = "statestore";
-//const string key = "counter";
+const string storeName = "statestore";
+const string key = "counter";
 
-//var daprClient = new DaprClientBuilder().Build();
-//var counter = await daprClient.GetStateAsync<int>(storeName, key);
+var daprClient = new DaprClientBuilder().Build();
+if(daprClient == null) Console.WriteLine("-------------顶顶顶顶顶顶顶顶顶顶----------------");
+var counter = await daprClient.GetStateAsync<int>(storeName, key);
 
-//while(true)
-//{
-//    Console.WriteLine($"Counter = {counter++}");
+while(true)
+{
+    Console.WriteLine($"Counter = {counter++}");
 
-//    await daprClient.SaveStateAsync(storeName, key, counter);
-//    await Task.Delay(1000);
-//}
+    await daprClient.SaveStateAsync(storeName, key, counter);
+    await Task.Delay(1000);
+}
 
-Console.WriteLine("踩踩踩踩踩踩从");
+//Console.WriteLine("踩踩踩踩踩踩从");

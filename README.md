@@ -21,3 +21,4 @@
   [net6sdk](https://download.visualstudio.microsoft.com/download/pr/4a725ea4-cd2c-4383-9b63-263156d5f042/d973777b32563272b85617105a06d272/dotnet-sdk-6.0.406-win-x64.exe)
 
 - 安装失败可参考 [点击查看](https://www.cnblogs.com/cfam/p/15423041.html)
+- [Dapr 配置](https://www.107000.com/T-Doc/2087)
