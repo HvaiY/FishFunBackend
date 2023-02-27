@@ -5,7 +5,6 @@ const string storeName = "statestore";
 const string key = "counter";
 
 var daprClient = new DaprClientBuilder().Build();
-if(daprClient == null) Console.WriteLine("-------------顶顶顶顶顶顶顶顶顶顶----------------");
 var counter = await daprClient.GetStateAsync<int>(storeName, key);
 
 while(true)
