@@ -20,3 +20,15 @@ Demo/ConsoleDaprDemo/.vs/ConsoleDaprDemo/v17/.suo
 /Demo/ConsoleDaprDemo/obj/Debug/net6.0/ConsoleDaprDemo.dll
 *.vsidx
 /Demo/ConsoleDaprDemo/obj/Debug/net6.0/ConsoleDaprDemo.pdb
+/Demo/ConsoleDaprDemo/.vs/ConsoleDaprDemo/v17/.futdcache.v2
+/Demo/ConsoleDaprDemo/.vs/ProjectEvaluation
+*.v2
+*.lock
+*.suo
+/Demo/DaprMultiContainer/DaprMultiContainer/.vs/ProjectEvaluation
+/Demo/DaprMultiContainer/DaprMultiContainer/bin/Debug
+/Demo/DaprMultiContainer/DaprMultiContainer/MyBackEnd/bin/Debug/net6.0
+/Demo/DaprMultiContainer/DaprMultiContainer/MyBackEnd/obj
+/Demo/DaprMultiContainer/DaprMultiContainer/MyFrontEnd/bin/Debug/net6.0
+/Demo/DaprMultiContainer/DaprMultiContainer/MyFrontEnd/obj
+/Demo/DaprMultiContainer/DaprMultiContainer/obj
